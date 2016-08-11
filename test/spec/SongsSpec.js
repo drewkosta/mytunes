@@ -1,4 +1,4 @@
-describe('Songs', function() {
+xdescribe('Songs', function() {
   xdescribe('when fetching song data from Parse', function() {
     var songs, fakeSongData, fakeResponse, xhr, requests;
 
