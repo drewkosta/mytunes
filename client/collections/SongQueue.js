@@ -21,5 +21,6 @@ var SongQueue = Backbone.Collection.extend({
 
   playFirst: function () {
     this.at(0).play();
+    this.at(0).set('playCount', this.at(0).get('playCount') + 1);
   }
 });
